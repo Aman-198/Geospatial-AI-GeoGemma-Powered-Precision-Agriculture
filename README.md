@@ -1,51 +1,120 @@
+🌍 Geospatial AI — GeoGemma Powered Precision Agriculture
 
-This helps farmers see field-level problem areas without physical inspection.
+Developer: Aman Kumar
 
-🧰 Tech Stack
-Frontend
+Geospatial AI is an advanced precision agriculture platform that transforms satellite Earth Observation data into actionable farming insights. It integrates satellite imagery, weather intelligence, and multi-modal AI to monitor crop health, detect anomalies, and generate localized advisory recommendations.
 
-React
+The platform is powered by GeoGemma, a Spatial Foundation Model designed to automate geospatial analysis and reduce GIS task completion time by ~74%.
 
-Vite
+🚀 Features
 
-Tailwind CSS
+🛰 Satellite-based crop monitoring (Sentinel-2)
 
-Backend & Services
+🌿 NDVI & LAI vegetation index computation
 
-Supabase (database + auth + storage)
+🌦 Real-time weather integration
 
-Google OAuth
+📸 AI-based crop disease detection
 
-Web3Forms
+🗺 Interactive geospatial map visualization
 
-Gemini API (advisory + vision-based diagnosis)
+📊 Field-level anomaly detection
 
-Weather API
+🧠 AI-generated farming advisory
 
-Deployment
+📈 Market insights and recommendations
 
-Vercel
+⚙️ How It Works
+1️⃣ Data Ingestion
 
-🔐 Environment Variables
+Sentinel-2 multispectral satellite imagery
 
-Create a .env file and add the following:
+NDVI and LAI vegetation analysis
 
-VITE_SUPABASE_URL=
-VITE_SUPABASE_PUBLISHABLE_KEY=
-VITE_GEMINI_API_KEY=
-VITE_WEATHER_API_KEY=
-VITE_WEB3FORMS_API_KEY=
-VITE_GOOGLE_CLIENT_ID=
-VITE_GOOGLE_CLIENT_SECRET=
+Real-time weather data integration
 
+2️⃣ GeoGemma AI Engine
 
+Geospatial Location Embedding (GLE)
 
-2. Install dependencies
+Vision-Language Model alignment
+
+Gemini AI for spatial analysis and advisory
+
+3️⃣ Output & Interface
+
+Image-based crop diagnosis
+
+Interactive maps
+
+Localized advisory reports
+
+🛠 Tech Stack
+Category	Technology
+Frontend	React, Vite, Tailwind CSS
+Backend & Auth	Supabase, Google OAuth
+AI Models	Gemini API, GeoGemma SFM
+Maps & GIS	Leaflet, React-Leaflet
+State Management	React Hook Form, Zod
+Deployment	Vercel
+📁 Project Structure
+project-root/
+│
+├── README.md
+├── src/
+│   ├── geospatial/
+│   ├── pages/
+│   ├── components/ui/
+│   └── App.jsx
+│
+├── supabase/
+├── package.json
+└── .env
+⚡ Getting Started
+Prerequisites
+
+Node.js installed
+
+Supabase account
+
+Gemini API key
+
+Weather API key
+
+Google OAuth credentials
+
+Environment Setup
+
+Create .env file:
+
+VITE_SUPABASE_URL=your_supabase_url
+VITE_SUPABASE_PUBLISHABLE_KEY=your_key
+VITE_GEMINI_API_KEY=your_gemini_key
+VITE_WEATHER_API_KEY=your_weather_key
+VITE_GOOGLE_CLIENT_ID=your_google_id
+VITE_GOOGLE_CLIENT_SECRET=your_google_secret
+Install Dependencies
 npm install
-
-3. Run locally
+Run Project
 npm run dev
 
+App runs at:
 
-Your app will be available at:
-➡️ http://localhost:5173/
+http://localhost:5173
+🎯 Use Cases
+
+Precision agriculture monitoring
+
+Crop disease detection
+
+Smart farming decision support
+
+Remote field analysis
+
+Agricultural research
+
+👨‍💻 Author
+
+Aman Kumar
+B.Tech — Ramgarh Engineering College
+AI • Geospatial Computing • Precision Agriculture
